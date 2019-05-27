@@ -1,0 +1,51 @@
+body{
+    background-color: #e7e7e7;
+}
+
+.login-frm{
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.login-frm form{
+    background-color: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    width: 450px;
+}
+
+.login-frm .alert{
+    margin: 10px auto;
+    width: 450px;
+}
+
+.progress{
+    background-color: #e7e7e7;
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    height: 100px;
+}
+
+.products{
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.products .table{
+  margin-top: 20px;
+}
+
+.products .empty-msg{
+    text-align: center;
+    margin: 10px 0;
+}
